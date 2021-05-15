@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YETILab</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="Fonts/TTNorms/stylesheet.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="top-menu lock-padding">
+            <!-- Верхнее меню -->
+            <div class="container">
+                <div class="top-menu-divs">
+                    <div class="logo-block">
+                        <img src="img/logo.svg" alt="logo" class="logo">
+                        <img src="img/YETIlab.svg" alt="YETIlab">
+                    </div>
+                    <input type="checkbox" id="menu-checkbox">
+                    <nav id="menu">
+                        <label for="menu-checkbox" class="toggle-button" data-open="Меню" data-close="Меню"
+                            onclick></label>
+                        <ul class="main-menu">
+                            <li class="nav-li"><a href="#about-us" class="nav-item nav-item-about-us">О нас</a></li>
+                            <li class="nav-li"><a href="#our-projects" class="nav-item nav-item-our-projects">Наши
+                                    проекты</a></li>
+                            <li class="nav-li"><a href="#services" class="nav-item nav-item-services">Услуги</a>
+                            </li>
+                            <li class="nav-li"><a href="#contacts" class="nav-item nav-item-contacts">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <div class="top-right">
+                        <p>с 9:00 до 21:00, Пн-Сб</p>
+                        <p><img src="img/phone.svg" alt="phone" class="top-phone-image"><a href="tel:+79150062362"
+                                class="top-phone-text">+7(915)006-23-62</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="top-info">
+            <!-- Верхний блок с заголовком -->
+            <div class="top-info-left">
+                <h1>Машинное обучение - большой шаг для вашего бизнеса</h1>
+                <p class="top-info-text">ML обеспечит и поможет внедрить готовое решение для вашего бизнеса,упростит
+                    работу с
+                    медиафайлами,системой поиска и лингвистикой.</p>
+                <a href="#form" class="apply-button">Оставить заявку</a>
+            </div>
+            <div class="top-info-right">
+                <img src="img/top-info-gif-bg.jpg" alt="laptop gif">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about-us" class="about-us">
+            <!-- О нас -->
+            <h2>О нас</h2>
+            <p class="about-us-text">Наша ĸоманда состоит из профессионалов в области машинного обучения, работающих
+                ĸаĸ
+                с ĸлассичесĸими
+                методами, таĸ и с передовыми технологиями ML</p>
+            <div class="about-us-advantage">
+                <div class="about-us-advantage-card">
+                    <img src="img/4-years.svg" alt="4">
+                    <div class="about-us-advantage-text">года</div>
+                    <div class="text-small text-small-about-us">Большой опыт работы в сфере DataScience
+                    </div>
+                </div>
+                <div class="about-us-advantage-card">
+                    <img src="img/all-fields.svg" alt="all-fields">
+                    <div class="about-us-advantage-text">все области</div>
+                    <div class="text-small text-small-about-us">Опыт в большинстве областей ML</div>
+                </div>
+                <div class="about-us-advantage-card">
+                    <img src="img/mgu.svg" alt="mgu">
+                    <div class="about-us-advantage-text">МГУ</div>
+                    <div class="text-small text-small-about-us"> Выпускники МГУ
+                        и Техносферы</div>
+                </div>
+                <div class="about-us-advantage-card">
+                    <img src="img/all-stages.svg" alt="all-stages">
+                    <div class="about-us-advantage-text">все этапы</div>
+                    <div class="text-small text-small-about-us">Оказываем полный цикл услуг
+                    </div>
+                </div>
+                <div class="about-us-advantage-card">
+                    <img src="img/benefit.svg" alt="benefit">
+                    <div class="about-us-advantage-text">-25%</div>
+                    <div class="text-small text-small-about-us">Сбор и разметка данных на 25% ниже рыночной цены
+                    </div>
+                </div>
+                <div class="about-us-advantage-card">
+                    <img src="img/help.svg" alt="help">
+                    <div class="about-us-advantage-text">помощь</div>
+                    <div class="text-small text-small-about-us">Качественная поддержĸа в будущем</div>
+                </div>
+            </div>
+        </section>
+        <section id="our-projects" class="our-projects">
+            <!-- Наши проекты -->
+            <h2>Наши проекты</h2>
+            <!-- Горизонтальный слайдер. Использовать, если надо показать не больше 6 проектов -->
+            <div class="swiper-container swiper-container-up-to-6-projects swiper-container-projects">
+                <div class="swiper-wrapper swiper-wrapper-up-to-6-projects">
+                    <div class="swiper-slide swiper-slide-up-to-6-projects swiper-slide-up-to-6-projects-1">
+                        <a href="#popup1" class="swiper-link popup-link">
+                            <h3>Flexer</h3>
+                            <p class="swiper-slide-up-to-6-projects-text">
+                                Предсказание исхода киберспортивных матчей в
+                                DOTA
+                            </p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide swiper-slide-up-to-6-projects swiper-slide-up-to-6-projects-2">
+                        <a href="#popup2" class="swiper-link popup-link">
+                            <h3>GestureApp</h3>
+                            <p class="swiper-slide-up-to-6-projects-text">
+                                Леговестный фреймворк бесконтактного интерфейса.
+                            </p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide swiper-slide-up-to-6-projects swiper-slide-up-to-6-projects-3">
+                        <a href="#popup3" class="swiper-link popup-link">
+                            <h3>Flexer</h3>
+                            <p class="swiper-slide-up-to-6-projects-text">
+                                Предсказание исхода киберспортивных матчей в
+                                DOTA
+                            </p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide swiper-slide-up-to-6-projects swiper-slide-up-to-6-projects-4">
+                        <a href="#popup1" class="swiper-link popup-link">
+                            <h3>GestureApp</h3>
+                            <p class="swiper-slide-up-to-6-projects-text">
+                                Леговестный фреймворк бесконтактного интерфейса.
+                            </p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide swiper-slide-up-to-6-projects swiper-slide-up-to-6-projects-5">
+                        <a href="#popup2" class="swiper-link popup-link">
+                            <h3>Flexer</h3>
+                            <p class="swiper-slide-up-to-6-projects-text">
+                                Предсказание исхода киберспортивных матчей в
+                                DOTA
+                            </p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide swiper-slide-up-to-6-projects swiper-slide-up-to-6-projects-6">
+                        <a href="#popup3" class="swiper-link popup-link">
+                            <h3>GestureApp</h3>
+                            <p class="swiper-slide-up-to-6-projects-text">
+                                Леговестный фреймворк бесконтактного интерфейса.
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-scrollbar-container">
+                    <div class="swiper-scrollbar swiper-scrollbar-up-to-6-projects"></div>
+                </div>
+            </div>
+            <!-- Вертикальный слайдер. Использовать, если надо показать больше 6 проектов -->
+            <div class="swiper-container swiper-container-more-than-6-projects swiper-container-projects">
+                <div class="swiper-wrapper swiper-wrapper-more-than-6-projects">
+                    <div class="swiper-slide swiper-slide-more-than-6-projects swiper-slide-more-than-6-projects-1">
+                        <a href="#popup1" class="swiper-link popup-link">
+                            <h3>Flexer</h3>
+                            <p class="swiper-slide-more-than-6-projects-text">
+                                Предсказание исхода киберспортивных матчей в
+                                DOTA
+                            </p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide swiper-slide-more-than-6-projects swiper-slide-more-than-6-projects-2">
+                        <a href="#popup2" class="swiper-link popup-link">
+                            <h3>GestureApp</h3>
+                            <p class="swiper-slide-more-than-6-projects-text">
+                                Леговестный фреймворк бесконтактного интерфейса.
+                            </p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide swiper-slide-more-than-6-projects swiper-slide-more-than-6-projects-3">
+                        <a href="#popup3" class="swiper-link popup-link">
+                            <h3>Flexer</h3>
+                            <p class="swiper-slide-more-than-6-projects-text">
+                                Предсказание исхода киберспортивных матчей в
+                                DOTA
+                            </p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide swiper-slide-more-than-6-projects swiper-slide-more-than-6-projects-4">
+                        <a href="#popup1" class="swiper-link popup-link">
+                            <h3>GestureApp</h3>
+                            <p class="swiper-slide-more-than-6-projects-text">
+                                Леговестный фреймворк бесконтактного интерфейса.
+                            </p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide swiper-slide-more-than-6-projects swiper-slide-more-than-6-projects-5">
+                        <a href="#popup2" class="swiper-link popup-link">
+                            <h3>Flexer</h3>
+                            <p class="swiper-slide-more-than-6-projects-text">
+                                Предсказание исхода киберспортивных матчей в
+                                DOTA
+                            </p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide swiper-slide-more-than-6-projects swiper-slide-more-than-6-projects-6">
+                        <a href="#popup3" class="swiper-link popup-link">
+                            <h3>GestureApp</h3>
+                            <p class="swiper-slide-more-than-6-projects-text">
+                                Леговестный фреймворк бесконтактного интерфейса.
+                            </p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide swiper-slide-more-than-6-projects swiper-slide-more-than-6-projects-1">
+                        <a href="#popup1" class="swiper-link popup-link">
+                            <h3>Flexer</h3>
+                            <p class="swiper-slide-more-than-6-projects-text">
+                                Предсказание исхода киберспортивных матчей в
+                                DOTA
+                            </p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide swiper-slide-more-than-6-projects swiper-slide-more-than-6-projects-2">
+                        <a href="#popup2" class="swiper-link popup-link">
+                            <h3>GestureApp</h3>
+                            <p class="swiper-slide-more-than-6-projects-text">
+                                Леговестный фреймворк бесконтактного интерфейса.
+                            </p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide swiper-slide-more-than-6-projects swiper-slide-more-than-6-projects-3">
+                        <a href="#popup3" class="swiper-link popup-link">
+                            <h3>Flexer</h3>
+                            <p class="swiper-slide-more-than-6-projects-text">
+                                Предсказание исхода киберспортивных матчей в
+                                DOTA
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <!-- Содержимое pop-up окон для раздела "Наши проекты" -->
+            <!-- Пример pop-up с нексколькими картинками -->
+            <div class="popup" id="popup1">
+                <div class="popup-body">
+                    <div class="popup-content">
+                        <a href="#menu" class="popup-close close-popup">&times;</a>
+                        <div class="popup-header"></div>
+                        <div class="popup-content-wrapper">
+                            <h2 class="popup-h2">Flexer</h2>
+                            <div class="text-big popup-text">Предсказание исхода киберспортивных матчей в DOTA</div>
+                            <h3>Что делали</h3>
+                            <p class="popup-text">Разрабатывали решение для определния жестов в видео потокое, в
+                                реальном времени.
+                            </p>
+                            <h3>Сложные вопросы</h3>
+                            <p class="popup-text">Нужно чтобы решение работало даже на слабых устройствах. Само
+                                внедрение модели на
+                                мобильные
+                                устройства предстовляло техническую сложность, которую мы успешно побороли. Также была
+                                проблема с большим ложноположительных срабатываний, мы решили эту проблему с помощью
+                                специального постпроцессинга.
+                            </p>
+                            <h3>Ссылки</h3>
+                            <p>Видео: <a href="https://vk.com/video485315564_456239072
+                                " class="popup-text-link">https://vk.com/video485315564_456239072
+                                </a></p>
+                            <div class="swiper-container swiper-container-pop-up">
+                                <div class="swiper-wrapper swiper-wrapper-pop-up">
+                                    <div class="swiper-slide swiper-slide-pop-up">
+                                        <img src="img/pop-up-slider.png" class="pop-up-slider-img" alt="pop-up-slider">
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-pop-up">
+                                        <img src="img/pop-up-slider.png" class="pop-up-slider-img" alt="pop-up-slider">
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-pop-up">
+                                        <img src="img/pop-up-slider.png" class="pop-up-slider-img" alt="pop-up-slider">
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-pop-up">
+                                        <img src="img/pop-up-slider.png" class="pop-up-slider-img" alt="pop-up-slider">
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-button-prev swiper-button-prev-pop-up"></div>
+                                <div class="swiper-button-next swiper-button-next-pop-up"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Пример pop-up с одной картинокй -->
+            <div class="popup" id="popup2">
+                <div class="popup-body">
+                    <div class="popup-content">
+                        <a href="#menu" class="popup-close close-popup">&times;</a>
+                        <div class="popup-header"></div>
+                        <div class="popup-content-wrapper">
+                            <h2 class="popup-h2">Flexer</h2>
+                            <div class="text-big popup-text">Предсказание исхода киберспортивных матчей в DOTA</div>
+                            <h3>Что делали</h3>
+                            <p class="popup-text">Разрабатывали решение для определния жестов в видео потокое, в
+                                реальном времени.
+                            </p>
+                            <h3>Сложные вопросы</h3>
+                            <p class="popup-text">Нужно чтобы решение работало даже на слабых устройствах. Само
+                                внедрение модели на
+                                мобильные
+                                устройства предстовляло техническую сложность, которую мы успешно побороли. Также была
+                                проблема с большим ложноположительных срабатываний, мы решили эту проблему с помощью
+                                специального постпроцессинга.
+                            </p>
+                            <h3>Ссылки</h3>
+                            <p>Видео: <a href="https://vk.com/video485315564_456239072
+                                " class="popup-text-link">https://vk.com/video485315564_456239072
+                                </a></p>
+                            <div class="swiper-container swiper-container-pop-up">
+                                <div class="swiper-wrapper swiper-wrapper-pop-up">
+                                    <div class="swiper-slide swiper-slide-pop-up">
+                                        <img src="img/pop-up-slider.png" class="pop-up-slider-img" alt="pop-up-slider">
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-button-prev swiper-button-prev-pop-up"></div>
+                                <div class="swiper-button-next swiper-button-next-pop-up"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Пример pop-up без картинок -->
+            <div class="popup" id="popup3">
+                <div class="popup-body">
+                    <div class="popup-content">
+                        <a href="#menu" class="popup-close close-popup">&times;</a>
+                        <div class="popup-header"></div>
+                        <div class="popup-content-wrapper">
+                            <h2 class="popup-h2">Flexer</h2>
+                            <div class="text-big popup-text">Предсказание исхода киберспортивных матчей в DOTA</div>
+                            <h3>Что делали</h3>
+                            <p class="popup-text">Разрабатывали решение для определния жестов в видео потокое, в
+                                реальном времени.
+                            </p>
+                            <h3>Сложные вопросы</h3>
+                            <p class="popup-text">Нужно чтобы решение работало даже на слабых устройствах. Само
+                                внедрение модели на
+                                мобильные
+                                устройства предстовляло техническую сложность, которую мы успешно побороли. Также была
+                                проблема с большим ложноположительных срабатываний, мы решили эту проблему с помощью
+                                специального постпроцессинга.
+                            </p>
+                            <h3>Ссылки</h3>
+                            <p>Видео: <a href="https://vk.com/video485315564_456239072
+                                " class="popup-text-link">https://vk.com/video485315564_456239072
+                                </a></p>
+                            <div class="swiper-container swiper-container-pop-up">
+                                <div class="swiper-wrapper swiper-wrapper-pop-up">
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-button-prev swiper-button-prev-pop-up"></div>
+                                <div class="swiper-button-next swiper-button-next-pop-up"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="services">
+            <div class="container">
+                <!-- Услуги -->
+                <h2>Услуги</h2>
+                <p class="text-big services-text-big">Полный цикл разработки ML решений от консалтинга и аудита до
+                    внедрения
+                    и поддержки</p>
+                <div class="service-1">
+                    <div class="service-number service-number-1">1</div>
+                    <div class="service-content">
+                        <div class="services-heading">Консалтинг</div>
+                        <ul class="service-ul">
+                            <li>Проанализируем проблему в бизнес постановке,</li>
+                            <li>Предложим различные технические пути решения,</li>
+                        </ul>
+                        <p>Первый час консультации <b>БЕСПЛАТНО</b>, далее <b>50$/час</b></p>
+                        <p>Составляем и оформляем техническое задание от <b>100$</b> за всю работу </p>
+                    </div>
+                </div>
+                <div class="service-2">
+                    <div class="service-2-top">
+                        <div class="service-number">2</div>
+                        <div class="service-content">
+                            <div class="services-heading">Разработка</div>
+                            <p>Мы занимаемся разработкой в любой области применения машинного обучения, в частности:</p>
+                        </div>
+                    </div>
+                    <div class="service-2-bottom">
+                        <div class="development-card development-card-1">
+                            <div class="development-card-top">
+                                <img src="img/cv.svg" alt="computer vision">
+                                <h3 class="development-card-price-1">от 1000$</h3>
+                            </div>
+                            <h5>CV (computer vision)</h5>
+                            <div class="development-card-text">С помощью различных методов наделяем компьютер
+                                способностью
+                                «видеть» и извлекать информацию из увиденного</div>
+                            <a href="#form" class="development-card-button development-card-button-1">Хочу</a>
+                        </div>
+                        <div class="development-card development-card-2">
+                            <div class="development-card-top">
+                                <img src="img/ocr.svg" alt="OCR">
+                                <h3 class="development-card-price-2">от 1000$</h3>
+                            </div>
+                            <h5>OCR</h5>
+                            <div class="development-card-text">Автоматизируем преобразование текста на изображениях или
+                                видео в удобный для анализа вид</div>
+                            <a href="#form" class="development-card-button development-card-button-2">Хочу</a>
+                        </div>
+                        <div class="development-card development-card-3">
+                            <div class="development-card-top">
+                                <img src="img/recsys.svg" alt="Recommendation system">
+                                <h3 class="development-card-price-3">от 1000$</h3>
+                            </div>
+                            <h5>RecSys (Recommendation system)</h5>
+                            <div class="development-card-text">Решим задачи по предсказанию будущих интересов ваших
+                                пользователей </div>
+                            <a href="#form" class="development-card-button development-card-button-3">Хочу</a>
+                        </div>
+                        <div class="development-card development-card-4">
+                            <div class="development-card-top">
+                                <img src="img/video.svg" alt="Video">
+                                <h3 class="development-card-price-4">от 1300$</h3>
+                            </div>
+                            <h5>Video</h5>
+                            <div class="development-card-text">Сделаем ML решение по классификации видеопотока,
+                                сегментации
+                                кадров в режиме реального времени и пр.</div>
+                            <a href="#form" class="development-card-button development-card-button-4">Хочу</a>
+                        </div>
+                        <div class="development-card development-card-5">
+                            <div class="development-card-top">
+                                <img src="img/nlp.svg" alt="natural language processing">
+                                <h3 class="development-card-price-5">от 1300$</h3>
+                            </div>
+                            <h5>NLP (natural language processing)</h5>
+                            <div class="development-card-text">Научим компьютер извлекать сущности, отвечать на вопросы
+                                и
+                                классифицировать тексты, написанные на естественном языке</div>
+                            <a href="#form" class="development-card-button development-card-button-5">Хочу</a>
+                        </div>
+                        <div class="development-card development-card-6">
+                            <div class="development-card-top">
+                                <img src="img/ir.svg" alt="information retrieval">
+                                <h3 class="development-card-price-6">от 1500$</h3>
+                            </div>
+                            <h5>IR (information retrieval)</h5>
+                            <div class="development-card-text">Разработаем быстрый умный поиск по вашей коллекции
+                                объектов
+                            </div>
+                            <a href="#form" class="development-card-button development-card-button-6">Хочу</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-3">
+                    <div class="service-number">3</div>
+                    <div class="service-content">
+                        <div class="services-heading">Поддержка</div>
+                        <p>Если наше решение перестало работать из-за нашей недоработки, мы БЕСПЛАТНО исправим все
+                            ошибки в
+                            самые сжатые сроки. Гарантия не имеет сроков давности</p>
+                        <div class="services-text services-text-margin">БЕСПЛАТНО</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="form" class="form">
+            <!-- Форма захвата -->
+            <h2>Опишите задачу</h2>
+            <form action="mail.php" method="POST">
+                <input type="text" name="user_name_and_company" placeholder="Имя и компания" class="form-input"><br>
+                <input type="tel" name="user_phone" placeholder="+7 ___ _______" class="form-input"><br>
+                <input type="email" name="user_email" placeholder="Электронная почта" class="form-input"><br>
+                <textarea placeholder="Опишите задачу" name="task_description" cols="30" rows="10"
+                    class="form-input"></textarea><br>
+                <p class="form-text">Нажимая на кнопку, вы соглашаетесь с <b>политикой конфиденциальности</b></p>
+                <button type="submit" class="submit-button">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-info container">
+            <div class="footer-info-item">
+                <!-- Наши партнеры -->
+                <h5>Наши партнеры:</h5>
+                <hr class="footer-division-line">
+                <p class="footer-item-margin"><a href="https://trainingdata.ru/" class="footer-link">trainingdata.ru</a>
+                </p>
+                <p class="footer-item-margin"><a href="http://sciencesight.by/" class="footer-link">sciencesight.by</a>
+                </p>
+            </div>
+            <div class="footer-info-item">
+                <!-- Контакты -->
+                <h5 id="contacts">Контакты:</h5>
+                <hr class="footer-division-line">
+                <div class="footer-item-margin">
+                    <img src="img/telegram.svg" alt="telegram">
+                    <a href="http://t.me/kotstantinovskii" class="footer-link">@kotstantinovskii</a>
+                </div>
+                <div class="footer-item-margin">
+                    <img src="img/email.svg" alt="email">
+                    <a href="mailto:pizza@internet.ru" class="footer-link">pizza@internet.ru</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p class="text-small container">&copy; “YETILab”, 2021</p>
+        </div>
+    </footer>
+
+    <!-- Скрипт для scrollspy menu -->
+    <script>
+        let aboutUs = document.querySelector("#about-us");
+        let ourProjects = document.querySelector("#our-projects");
+        let services = document.querySelector("#services");
+
+        window.addEventListener("scroll", () => {
+            var windo = window.pageYOffset;
+            if (aboutUs.offsetTop <= windo && ourProjects.offsetTop > windo) {
+                document.querySelector(".nav-item-about-us").setAttribute("id", "active");
+                document.querySelector(".nav-item-our-projects").removeAttribute("id", "active");
+                document.querySelector(".nav-item-services").removeAttribute("id", "active");
+                document.querySelector(".nav-item-contacts").removeAttribute("id", "active");
+            }
+            else if (ourProjects.offsetTop <= windo && services.offsetTop > windo) {
+                document.querySelector(".nav-item-our-projects").setAttribute("id", "active");
+                document.querySelector(".nav-item-about-us").removeAttribute("id", "active");
+                document.querySelector(".nav-item-services").removeAttribute("id", "active");
+                document.querySelector(".nav-item-contacts").removeAttribute("id", "active");
+            }
+            else if (services.offsetTop <= windo && contacts.offsetTop > windo) {
+                document.querySelector(".nav-item-services").setAttribute("id", "active");
+                document.querySelector(".nav-item-our-projects").removeAttribute("id", "active");
+                document.querySelector(".nav-item-about-us").removeAttribute("id", "active");
+                document.querySelector(".nav-item-contacts").removeAttribute("id", "active");
+            }
+            else {
+                document.querySelector(".nav-item-about-us").setAttribute("id", "active");
+                document.querySelector(".nav-item-our-projects").removeAttribute("id", "active");
+                document.querySelector(".nav-item-services").removeAttribute("id", "active");
+                document.querySelector(".nav-item-contacts").removeAttribute("id", "active");
+            }
+        })
+    </script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Скрипт слайдера для блока "Наши проекты", если не больше 6 проектов: -->
+    <script src="js/our-projects-up-to-6-cards.js"></script>
+    <!-- Скрипт слайдера для блока "Наши проекты", если больше 6 проектов: -->
+    <script src="js/our-projects-more-than-6-cards.js"></script>
+    <!-- Скрипт для pop-up окна -->
+    <script src="js/popups.js"></script>
+    <!-- Скрипт слайдера для блока "Наши проекты", для pop-up окна: -->
+    <script src="js/pop-up-slider.js"></script>
+</body>
+
+</html>
