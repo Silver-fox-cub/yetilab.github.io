@@ -12,15 +12,23 @@ $task = $_POST['task_description'];
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'smtp.mail.ru';  																							// Specify main and backup SMTP servers
+$mail->Host = 'mail.nic.ru';  																							// Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'silver-fox-cub@inbox.ru'; // Ваш логин от почты с которой будут отправляться письма
-$mail->Password = 'anVQfRCG2osWsasJ1OOc'; // Ваш пароль от почты с которой будут отправляться письма
+$mail->Username = 'php-mailer-test@olery.site'; // Ваш логин от почты с которой будут отправляться письма
+$mail->Password = 'Zaza82pp'; // Ваш пароль от почты с которой будут отправляться письма
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465; // TCP port to connect to / этот порт может отличаться у других провайдеров
 
-$mail->setFrom('silver-fox-cub@inbox.ru'); // от кого будет уходить письмо?
-$mail->addAddress('sfxery@gmail.com');     // Кому будет уходить письмо 
+// $mail->isSMTP();                                      // Set mailer to use SMTP
+// $mail->Host = 'smtp.mail.ru';  																							// Specify main and backup SMTP servers
+// $mail->SMTPAuth = true;                               // Enable SMTP authentication
+// $mail->Username = 'silver-fox-cub@inbox.ru'; // Ваш логин от почты с которой будут отправляться письма
+// $mail->Password = 'anVQfRCG2osWsasJ1OOc'; // Ваш пароль от почты с которой будут отправляться письма
+// $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
+// $mail->Port = 465; // TCP port to connect to / этот порт может отличаться у других провайдеров
+
+$mail->setFrom('php-mailer-test@olery.site'); // от кого будет уходить письмо?
+$mail->addAddress('contact@olery.site');     // Кому будет уходить письмо 
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
